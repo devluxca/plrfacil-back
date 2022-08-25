@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  plrfacil:
+    container_name: plrfacilapp
+    build: .
+    command: yarn dev
+    ports:
+      - "3001:3001"
+    volumes:
+      - .:/usr/app
+    environment:
+      - NODE_ENV=development
+      - DB_PASSWORD=oJnuCg8fox2CyiqIweEz
