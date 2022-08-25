@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@controllers/*": [
+                "src/controllers/*"
+            ],
+            "@models/*": [
+                "src/models/*"
+            ],
+            "@schemas/*": [
+                "src/schemas/*"
+            ],
+            "@database/*": [
+                "src/database/*"
+            ],
+            "@services/*": [
+                "src/services/*"
+            ],
+            "@utils/*": [
+                "src/utils/*"
+            ]
+        },
+        "target": "es2017",
+        "module": "commonjs",
+        "allowJs": true,
+        "checkJs": true,
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true
+    },
+}

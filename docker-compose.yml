@@ -11,4 +11,3 @@ services:
       - .:/usr/app
     environment:
       - NODE_ENV=development
-      - DB_PASSWORD=oJnuCg8fox2CyiqIweEz
